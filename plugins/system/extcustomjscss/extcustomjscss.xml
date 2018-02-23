@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+	<name>System - EXT Custom JS/CSS</name>
+	<author>Ext-Joom.com</author>
+	<creationDate>03/08/2013</creationDate>
+	<copyright>Copyright (C) 2011-2014 Ext-Joom.com. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>extjoom@gmail.com</authorEmail>
+	<authoralt>http://www.ext-joom.com/en/</authoralt>
+	<version>1.1</version>
+	<description>CSS / JS will be placed in head</description>
+
+	<files>
+		<filename plugin="extcustomjscss">extcustomjscss.php</filename>
+		<filename>index.html</filename>
+	</files>	
+	
+	<languages>
+		<language tag="en-GB">en-GB.plg_system_extcustomjscss.ini</language>
+		<language tag="en-GB">en-GB.plg_system_extcustomjscss.sys.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field 
+					type="spacer" 
+					label="PLG_SYSTEM_EXTCUSTOMJSCSS_FIELD_SPACER_LABEL" />	
+				<field 
+					name="ext_css" 
+					type="textarea"
+					filter="raw" 
+					default="html {
+	/* IE */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+	/* Chrome, Safari */
+	-webkit-filter: grayscale(1);
+	/* Firefox */
+	filter: grayscale(1);
+	filter: grayscale(40%);
+	filter: gray; 
+	-moz-filter: grayscale(40%);
+	-webkit-filter: grayscale(40%);
+" 
+					label="PLG_SYSTEM_EXTCUSTOMJSCSS_FIELD_CSS_LABEL" 
+					description="PLG_SYSTEM_EXTCUSTOMJSCSS_FIELD_CSS_DESC" 
+					rows="32" 
+					cols="40"/>
+					
+				<field 
+					name="ext_js" 
+					type="textarea"
+					filter="raw" 
+					default="" 
+					label="PLG_SYSTEM_EXTCUSTOMJSCSS_FIELD_JS_LABEL" 
+					description="PLG_SYSTEM_EXTCUSTOMJSCSS_FIELD_JS_DESC" 
+					rows="32" 
+					cols="40"/>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

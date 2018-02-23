@@ -1,0 +1,38 @@
+.contentpaneopen li a,a.blogsection{color:#0276C7;text-decoration:none}
+
+span.bignumber1{background-image:url(../images/typo/basic/blue/bignumber1.png)}
+
+div.bluebox,div.special{border:1px solid #b3e3ef;background-color:#f3fbfd;}
+
+div.qoute{background-image:url(../images/typo/basic/blue/qoute-l.png)}
+div.qoute div{background-image:url(../images/typo/basic/blue/qoute-r.png)}
+
+div.bubble1{border:1px solid #b3e3ef}
+div.bubble1 div{background-image:url(../images/typo/basic/blue/bubble1-tl.png)}
+div.bubble1 div div{background-image:url(../images/typo/basic/blue/bubble1-tr.png)}
+div.bubble1 div div div{background-image:url(../images/typo/basic/blue/bubble1-br.png)}
+div.bubble1 div div div div{background-image:url(../images/typo/basic/blue/bubble1-bl.png)}
+
+a.button-1{
+	background:url(../images/blue/button-bg.png) repeat-x;
+	border-left:1px solid #5B85AF;
+	border-top:1px solid #5B85AF;
+	border-right:1px solid #042E58;
+	border-bottom:1px solid #042E58;
+}
+a.button-1:hover{
+	background:url(../images/blue/button-bg-over.png) repeat-x;
+	border-left:1px solid #305A83;
+	border-top:1px solid #305A83;
+	border-right:1px solid #052F58;
+	border-bottom:1px solid #052F58;
+}
+a.button-1:active{
+	background:url(../images/blue/button-bg-active.png) repeat-x;
+	border-left:1px solid #042E58;
+	border-top:1px solid #042E58;
+	border-right:1px solid #5B85AF;
+	border-bottom:1px solid #5B85AF;
+}
+
+#BJ_Headline .venus-headline{border:1px solid #374f58}

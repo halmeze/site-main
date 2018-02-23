@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://dev.joomla.org/xml/1.5/template-install.dtd">
+<extension version="1.6.1" type="template" client="site">
+	<name>BJ_Venus</name>
+	<creationDate>5th April 2012</creationDate>
+	<author>The ByJoomla Team</author>
+	<copyright>Copyright (c) 2008-2011 - byjoomla.com. All rights reserved unless otherwise stated.</copyright>
+	<authorEmail>admin@byjoomla.com</authorEmail>
+	<authorUrl>http://www.byjoomla.com</authorUrl>
+	<version>1.7.1</version>
+	<license>GNU General Public License v3.0</license>
+	<description><![CDATA[
+<img src="../templates/bj_venus/template_thumbnail.png" style="margin-right: 1em; float: left" />
+<p><strong>Version:</strong> 1.7.1</p>
+<p><strong>Date: </strong>31th March 2014</p>
+<p><strong>Author: </strong>The ByJoomla Team</p>
+<p><strong>Author URL: </strong><a href="http://www.byjoomla.com" title="ByJoomla.com" target="_blank">www.byjoomla.com</a></p>
+	]]></description>
+<files>
+    <filename>index.php</filename>
+    <filename>template_thumbnail.png</filename>
+	<filename>component.php</filename>
+	<filename>favicon.ico</filename>
+	<filename>index.html</filename>
+	<filename>read_tpl_params.php</filename>
+	<filename>params.ini</filename>
+	<folder>images</folder>
+	<folder>css</folder>
+	<folder>func</folder>	
+	<folder>html</folder>
+	<folder>language</folder>
+</files>
+<positions>
+		<position>header</position>
+		<position>toolbar</position>
+		<position>advert1</position>
+		<position>headline</position>
+		<position>top</position>
+		<position>left</position>
+		<position>right</position>
+		<position>bottom</position>
+		<position>banner</position>
+		<position>breadcrumbs</position>		
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>		
+		<position>footer</position>		
+		<position>legals</position>		
+		
+</positions>
+<config>
+		<fields name="params">
+			<fieldset name="advanced">
+	<field name="templateColor" type="list" default="blue" label="PRO - Template Color" description="Template color selection.">
+		<option value="blue">Blue</option>
+	</field>
+	<field name="pathway_text" type="text" default="You are here:" label="'You are here' text" description="Set 'You are here' text in your language"/>
+	<field name="backtotop" type="text" default="Back to Top" label="'Back to Top' text" description="Set 'Back to Top' text in your language"/>
+	</fieldset>
+		</fields>
+	</config>
+</extension>

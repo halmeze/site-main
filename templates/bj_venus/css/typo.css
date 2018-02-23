@@ -1,0 +1,71 @@
+/* ======================== BYJOOMLA BASIC TYPOGRAPHY ===================== */
+
+p.bignumber1{display:block;padding:7px 0;width:100%}
+span.bignumber1{background:url(../images/typo/basic/bignumber1.png) 0px 0px no-repeat;width:35px;height:37px;float:left;margin:0 5px 0 0;color:#FFF;text-transform:uppercase;font-size:20px;padding:0 0 0 7px}
+
+ul .dot{list-style:none;margin:0}
+ul .dot li{background:url(../images/typo/basic/list.png) left no-repeat;padding:0 0 0 12px;line-height:2em}
+
+span.icon-download{background:url(../images/typo/basic/download.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-user{background:url(../images/typo/basic/user.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-contact{background:url(../images/typo/basic/contact.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-attachment{background:url(../images/typo/basic/attachment.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-cart{background:url(../images/typo/basic/cart.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-mail{background:url(../images/typo/basic/mail.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-calendar{background:url(../images/typo/basic/calendar.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-selection{background:url(../images/typo/basic/selection.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-cancel{background:url(../images/typo/basic/cancel.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-home{background:url(../images/typo/basic/home.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-setting{background:url(../images/typo/basic/setting.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-comment{background:url(../images/typo/basic/comment.png) no-repeat 0 -1px;padding:0 0 0 22px;line-height:2em}
+span.icon-search{background:url(../images/typo/basic/search.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-folder{background:url(../images/typo/basic/folder.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-note{background:url(../images/typo/basic/note.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-acceptance{background:url(../images/typo/basic/acceptance.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-sitemap{background:url(../images/typo/basic/sitemap.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-delete{background:url(../images/typo/basic/delete.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-internet{background:url(../images/typo/basic/internet.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-link{background:url(../images/typo/basic/link.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-tip{background:url(../images/typo/basic/tip.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-info{background:url(../images/typo/basic/info.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-error{background:url(../images/typo/basic/error.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-rss{background:url(../images/typo/basic/rss.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-plugin{background:url(../images/typo/basic/plugin.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-date{background:url(../images/typo/basic/date.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-new{background:url(../images/typo/basic/new.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-image{background:url(../images/typo/basic/image.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-application{background:url(../images/typo/basic/application.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-exclaimation{background:url(../images/typo/basic/exclaimation.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-video{background:url(../images/typo/basic/video.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-help{background:url(../images/typo/basic/help.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-cash{background:url(../images/typo/basic/cash.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-dollar{background:url(../images/typo/basic/dollar.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-html{background:url(../images/typo/basic/html.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-key{background:url(../images/typo/basic/key.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-lock{background:url(../images/typo/basic/lock.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-statistic{background:url(../images/typo/basic/statistic.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-display{background:url(../images/typo/basic/display.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+span.icon-feeds{background:url(../images/typo/basic/feeds.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-printer{background:url(../images/typo/basic/printer.png) no-repeat 0 0px;padding:2px 0 0 22px;line-height:2em}
+span.icon-flag{background:url(../images/typo/basic/flag.png) no-repeat 0 -2px;padding:0 0 0 22px;line-height:2em}
+
+span.author{font-weight:bold;display:block;padding:5px 0 5px 15px;width:100%;}
+div.bubble1{display:block;margin:10px 0;background:#FFF;border:1px solid #ace0ee;width:100%}
+div.bubble1 div{background:url(../images/typo/basic/bubble1-tl.png) no-repeat top left;margin:-1px 0 -16px -1px}
+div.bubble1 div div{background:url(../images/typo/basic/bubble1-tr.png) no-repeat top right;margin:-1px -1px 0 0}
+div.bubble1 div div div{background:url(../images/typo/basic/bubble1-br.png) no-repeat bottom right;margin:0}
+div.bubble1 div div div div{background:url(../images/typo/basic/bubble1-bl.png) no-repeat bottom left;}
+div.bubble1 div div div div div{background:none;display:block;padding:20px 20px 35px 20px}
+div.bubble1 div div div div div div{padding:0}
+
+div.special{display:block;width:100%;margin:10px 0}
+div.special div{padding:20px}
+div.special div div{padding:0}
+
+div.bluebox{border:1px solid #b3e3ef;background-color:#f3fbfd;}
+
+div.qoute{background:url(../images/typo/basic/qoute-l.png) no-repeat left top;margin:10px 0}
+div.qoute div{background:url(../images/typo/basic/qoute-r.png) no-repeat right bottom;padding:10px 50px}
+div.qoute div div{background:none}
+
+span.dropcap{font-size:68px;display:block;float:left;margin:-36px 10px 0 0;font-family:"Times New Roman",Georgia,Serif;padding:0}

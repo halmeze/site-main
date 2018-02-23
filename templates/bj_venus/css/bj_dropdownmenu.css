@@ -1,0 +1,32 @@
+/* ====================== COLOR DEFINITION =============================== */
+
+ul.list_menu li{/* root-menu items */background:url(../images/blue/top_nav_li.png) right no-repeat}
+ul.list_menu li .mainlevel{/* root-menu items::link and placeholder */color:#D2EBF7}
+ul.list_menu li .mainlevel span{color:#FF8700}
+ul.list_menu li.active_mitem .mainlevel,ul.list_menu li.active_mitem .mainlevel:hover{/* root-menu link items::active state */color:#E8F1F5; background:url(../images/blue/top_nav_bg_hover.png) repeat-x}
+ul.list_menu li .mainlevel:hover{/* root-menu link items::hover state */color:#E9F4F9; background:url(../images/blue/top_nav_bg_hover.png) repeat-x;text-decoration:none}
+ul.list_menu li div.bg0{background:url(../images/blue/dropdown_top.png) top left no-repeat;}
+ul.list_menu li div div.bg1{background:url(../images/blue/dropdown_bottom.png) bottom left no-repeat}
+ul.list_menu li div div div.bg2{background:url(../images/blue/dropdown_bg.png) left repeat-y}
+ul .bg0{background:#36A0D4}
+
+ul.list_menu li li.parent{background-image:url(../images/menu_item_over.png);background-position:150px center;background-repeat:no-repeat}
+
+ul.list_menu li li .sublevel,
+ul.list_menu li li.sfhover li .sublevel, 
+ul.list_menu li li.sfhover li li .sublevel, 
+ul.list_menu li li.sfhover li li li .sublevel, 
+ul.list_menu li li.sfhover li li li li .sublevel{/* sub-menu items::link and placeholder */color:#fff; border-bottom:1px solid #5EB3DD;background:none}
+
+ul.list_menu li li.sfhover .sublevel,
+ul.list_menu li li li.sfhover .sublevel, 
+ul.list_menu li li li li.sfhover .sublevel, 
+ul.list_menu li li li li li.sfhover .sublevel, 
+ul.list_menu li li li li li li.sfhover .sublevel, 
+ul.list_menu li li.active_mitem .sublevel, 
+ul.list_menu li li li.active_mitem .sublevel, 
+ul.list_menu li li li li.active_mitem .sublevel, 
+ul.list_menu li li li li li.active_mitem .sublevel, 
+ul.list_menu li li li li li li.active_mitem .sublevel{/* sub-menu items::hover and active state */background-color:#1B8BC2}
+
+ul.list_menu li.sfhover .sublevel:hover{/* sub-menu items::hover and active state */background-color:#1B8BC2}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="module" method="upgrade">
+<name>Simple Flickr Slideshow J3</name>
+<creationDate>June 2011</creationDate>
+<version>1.0.6</version>
+<author>GraphicAholic</author>
+<copyright>Copyright 2011 - graphicaholic.com</copyright>
+<license>http://www.gnu.org/copyleft/lgpl.html</license>
+<authorEmail>ech@graphicaholic.com</authorEmail>
+<authorUrl>http://www.graphicaholic.com/joomla</authorUrl>
+	<description><![CDATA[<img src="../modules/mod_sfs/images/sfs.jpg" alt="Simple Flickr Slideshow'" /><p><strong>Simple Flickr Slideshow (c) 2011-2012</strong> is a GPL Joomla! module from <strong><a href="http://www.graphicaholic.com" target="_blank" >GraphicAholic</a></strong></p><p>Simple Flickr Slideshow gives you the ability to display any Flickr Photoset in a simple slideshow presentation.</p><p>Simple Flickr Slideshow requires Javascript to be active within your web browser.</strong> </p><p><strong><u>USAGE</u> :</strong> <p>Adjust the settings to the right for your specific needs (<b><u>Please Note</u>:</b> Do not include 'px' after your slideshow width, height or the top, bottom margins) and don't forget to <strong>Enable</strong> this module into a module position of your choice.</p><ol><li>Displays any single Flickr Photoset</li><li>Supported Browsers: IE6+, FireFox, Safari & Chrome</li></ol><p><strong>Change Log:</strong><br />Version 1.0.4: Features upgrade.<br />Version 1.0.3: Bug Fix release.<br />Version 1.0.2: Ability to have more then one SFS on the same page.<br />Version 1.0.1: Fixed jQuery script. Now when you click onto title, you are taken to your image within Flickr in a new window.<br />Version 1.0.0: Initial Release</p>]]>
+	</description>
+	<files>
+		<filename module="mod_sfs">mod_sfs.php</filename>
+		<folder>js</folder>
+		<folder>images</folder>
+		<filename>index.html</filename>
+		<filename>mod_sfs.xml</filename>
+	</files>
+		<config>
+			<fields name="params">
+<fieldset name="general" group="general" label="General Settings">
+<field name="Simple Flickr Slideshow (c) 2011-2013 Settings" type="radio" default="" />
+<field name="slideWidth" type="text" default="auto" label="Slideshow Width" description="Allowed auto - pixel - percentage. You can also use a percentage value (e.g. 50%) or the default 'auto' command. Using the default 'auto' command will allow SFS to automatically fill-up the available module space." />
+<field name="slideHeight" type="text" default="" label="Slideshow Height" description="DO NOT USE 'PX' AFTER VALUE." />
+<field name="topMargin" type="text" default="" label="Top Margin" description="DO NOT USE 'PX' AFTER VALUE." />
+<field name="bottomMargin" type="text" default="" label="Bottom Margin" description="DO NOT USE 'PX' AFTER VALUE." />
+<field name="photoSet" type="text" default="" label="Flickr Photoset No." description="Your Flickr Photoset Number." />
+<field name="perPage" type="text" default="50" label="Pre-Load No. of Photos" description="Enter the number of photos you wish to pre-load and show. Please Note: The higher the number the longer it will take Simple Flickr Slideshow to finish page loading." />
+<field name="autoStart" type="radio" class="btn-group" default="0" label="Auto start slideshow?" description="Yes / No ?">
+			<option value="1">No</option>
+			<option value="0">Yes</option>
+	</field>
+<field name="interval" type="text" default="4000" label="Interval Between Slides" description="Timed Intervals Between Slide Transitions (in milliseconds)." />
+<field name="hide_buttons" type="radio" class="btn-group" default="0" label="Show Navigation Bar?" description="Yes / No ?">
+			<option value="1">No</option>
+			<option value="0">Yes</option>
+	</field>
+<field name="customText" type="text" default="Loading script and Flickr images" label="Custom loading text" description="Custom loading text." />
+</fieldset>
+<fieldset name="flickr" group="flickr" label="Flickr Search Options">
+<field name="Settings will over-ride your Flickr Photoset No." type="radio" default="" />
+<field name="tagSearch" type="radio" class="btn-group" default="1" label="General search by tags?" description="Setting this option to Yes will over-ride your Flickr Photoset Number and render Flickr photos based on the Tags you enter below. Default: No">
+			<option value="1">No</option>
+			<option value="2">Yes</option>
+	</field>
+<field name="flickrTags" type="text" default="" label="Tags to search for" description="A comma-seperated list of tags you wish to search by." />
+</fieldset>
+	<fieldset name="advanced" group="advanced">
+				<field name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="fieldMODULECLASSSUFFIX" />
+				<field name="cache" type="radio" class="btn-group" default="1" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+				<field name="documentation" type="docs" default="900" label="" description="" />
+	</fieldset>
+</fields>
+</config>
+</extension>

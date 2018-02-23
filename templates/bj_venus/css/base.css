@@ -1,0 +1,308 @@
+/* STANDARD CSS SELECTORS OF JOOMLA 1.0.X TEMPLATE SYSTEM */
+
+/* ======================== COMMON ======================== */
+
+/* standard */
+*{padding:0;margin:0;line-height:1.5em}
+body{color:#333333;font-size:12px;font-family:Arial,Helvetica,sans-serif}
+a{text-decoration: none;color:#0276c7;}
+a:hover{text-decoration:underline}
+ul{margin:0 0 0 20px}
+ul li{}
+blockquote{}
+a img{border:none}
+form fieldset{border:none}
+form li{background:none}
+h1,h2,h3{text-align:left}
+.ui-widget{font-family:Arial, Helvetica, sans-serif;}
+/* ======================== PATHWAY ======================== */
+span.pathway,a.pathway{}
+a.pathway:hover{}
+span.pathway img{}
+
+/* ======================== CONTENT ======================== */
+
+/* page title */
+.item-page > h2, .item-page > h1{font-weight:bold;text-transform:uppercase}
+.item-page > h2, .item-page > h1{background:url(../images/heading_bg.png) repeat-x;height:28px;font-weight:bold;margin:0 0 15px 0px;text-transform:uppercase;padding:7px 0px 0 20px}
+.item-page > h1 a, .item-page > h2 a{font-size:12px;display:inline;color:#494F57;}
+.item-page > h1:before, .item-page > h2:before{content:''; padding:17px 3px;background:url(../images/heading_l.png) no-repeat;float:left;margin:-7px 0 0 -25px}
+.item-page > h1:after, .item-page > h2:after{content:''; background:url(../images/heading_r.png) no-repeat; float:right; margin-top:-7px; width:5px; height:34px; margin-right:-5px;}
+
+/*module title*/
+div.moduletable h3{}
+h4{margin:10px 0}
+
+/* blog page main wrapper */
+table.blog{}
+.blog-featured{padding:0 10px}
+
+/* component & content container */
+.blog-featured .items-leading, .blog-featured .item{margin-bottom:15px;}
+table.contentpane,table.contentpaneopen{width:100%;text-align:left}
+table.contentpane img,table.contentpaneopen img{}
+.contentpaneopen li{margin:3px 0;padding:0 10px;background:url(../images/square.png) left no-repeat;}
+.item p{margin:10px 0}
+table.contentpane td{width:auto}
+
+/* separator after each content item */
+span.article_seperator{}
+
+/* content title */
+td.contentheading,table.blog td.contentheading{font-size:16px;font-weight:bold}
+.blog-featured h1,.blog-featured h2,.blog-featured h3, .blog-featured h1 a,.blog-featured h2 a,.blog-featured h3 a{font-size:16px;color:#2173AF;margin:0 0 12px 0}
+.blog-featured td h2{margin-bottom:4px;}
+.blog-featured td h2 a{font-size:19px; line-height:1.5em;}
+.blog-featured td h2 img{margin-right:10px;}
+a.contentpagetitle{}
+
+/* Item more */
+.items-more ol{list-style:none; margin:0; padding:0;}
+
+/* Pagination */
+.pagination{text-align:center; margin:20px 0 0;}
+.pagination > *{display:inline-block;}
+.pagination ul{list-style:none; margin:0; padding:0;}
+.pagination ul li{display:inline-block; padding:0 10px;}
+
+
+/* 3 buttons */
+td.buttonheading{width:24px;padding:0;margin:0}
+td.buttonheading img,td.buttonheading a{margin:0;padding:0}
+table.blog td.buttonheading{padding:0 3px}
+table.contentpaneopen{border-spacing:0px;margin:0 0 5px 0}
+
+/* date & author */
+.blog-featured .actions, .article-info .article-info-term, .article-info .category-name, .article-info .hits{display:none;}
+.article-info{background:#F2F2F2;padding:3px 15px;color:#7F7F7F;font-style:italic;margin:0 0 20px 0; display:inline-block; width:100%; box-sizing:border-box;}
+.article-info > *{float:left;}
+.article-info .createdby{background:url(../images/typo/author16x16.png) left no-repeat;padding:0 0 0 20px}
+.article-info .published{background:url(../images/typo/calendar16x16.png) left no-repeat;padding:0 10px 0 20px}
+
+td.createdate,td.modifydate{color:#7F7F7F;font-style:italic}
+.smalldark{}
+
+/* page counter */
+div.pagenavcounter{}
+
+/* table of content */
+table.contenttoc{padding:4px;margin:4px}
+table.contenttoc th{}
+table.contenttoc td{}
+a.toclink{}
+
+/* content image */
+div.img_caption{background:#f2f2f2;border:1px solid #CCC;padding:5px}
+div.left{margin:0 10px 10px 0}
+img.caption{}
+p.img_caption{font-style:italic;text-align:center}
+
+/* read more */
+a.readon{text-decoration:underline}
+a.readon:hover{}
+
+/* search result */
+.contentpaneopen fieldset{margin:10px 0;padding:10px;}
+
+/* ======================== MORE ======================== */
+
+/* panel */
+div.blog_more{}
+
+/* panel heading */
+div.blog_more div{}
+
+/* block list */
+div.blog_more ul{}
+div.blog_more ul li{}
+
+/* list link */
+.contentpaneopen li a,a.blogsection{color:#333333;text-decoration:none}
+.contentpaneopen li a:hover,a.blogsection:hover{color:#0276c7;text-decoration:underline}
+/* ======================== TABLE ======================== */
+
+/* description */
+td.contentdescription{font-weight:bold}
+
+/* category link */
+a.category{}
+
+/* listing */
+td.sectiontableheader{}
+tr.sectiontableentry1 td{}
+tr.sectiontableentry2 td{}
+
+/* ======================== NAVIGATION ======================== */
+
+.pagenav{list-style:none; margin:0; padding:0;}
+.pagenav li{float:left;}
+.pagenav li.pagenav-next{float:right;}
+
+/* multi-page content nav */
+div.pagenavbar{}
+div.pagenavbar div{}
+div.pagenavbar div a{}
+
+/* content item nav */
+th.pagenav_prev,th.pagenav_next{}
+th.pagenav_prev a,th.pagenav_next a{}
+
+/* blog page nav */
+.pagenav{}
+a.pagenav{}
+
+/* back button */
+div.back_button{}
+div.back_button a{}
+div.back_button a:hover{}
+
+/* ======================== FORM ======================== */
+form{}
+form label{}
+input,textarea{}
+input.button{padding:0 5px;text-align:center;cursor:pointer;height:24px}
+button.button{padding:0 5px}
+input.button:hover{}
+.contentpane .inputbox{}
+.contentpane select.inputbox{}
+
+select#mod_templatechooser_jos_change_template{width:142px;margin-top:3px}
+textarea#contact_text.inputbox{width:90%}
+#search_searchword{width:130px}
+
+input.invalid{color:red;border:1px solid #ff0000}
+#system-message{margin:10px 0}
+#system-message dt.notice{background:#E6C0C0;padding:2px 10px;color:#fff;font-weight:bold;border:3px solid #DE7A7B;border-left:none;border-right:none}
+#system-message dt.message{background:#C3D2E5;padding:2px 10px;color:#fff;font-weight:bold;border:3px solid #84A7DB;border-left:none;border-right:none}
+#system-message dd.message{font-weight:bold;color:#000}
+div.message{background:#C3D2E5;padding:2px 10px;color:#fff;font-weight:bold;border:3px solid #84A7DB;border-left:none;border-right:none;margin:10px 0}
+/* ======================== POPUP ======================== */
+body.contentpane{}
+
+/* ======================== MENU ======================== */
+
+
+/* ======================== SEARCH ======================== */
+
+/* search wrapper */
+div.search{}
+
+/* keyword input field */
+input#mod_search_searchword{}
+
+/* keyword high-light */
+span.highlight{}
+
+/* ======================== LOGIN ======================== */
+input.inputbox#modlgn_username{border:none;height:22px;padding:2px 0 0 2px;}
+input.inputbox#modlgn_passwd {border:none;height:22px;padding:2px 0 0 2px;}
+input#modlgn_remember{margin:5px 0 0 0}
+
+/* ======================== LATEST ARTICLE ======================== */
+ul.latestnews{}
+li.latestnews{}
+a.latestnews{}
+
+/* ======================== POPULAR ARTICLE ======================== */
+ul.mostread{}
+li.mostread{}
+a.mostread{}
+
+/* ======================== POLL ======================== */
+
+/* wrapper table */
+table.poll{}
+
+/* question cell */
+table.poll thead td{}
+
+/* answers cell */
+table.poll td{padding: 3px 0}
+
+/* answers table */
+table.pollstableborder{}
+table.pollstableborder .sectiontableheader{color:#2173AF;font-size:15px}
+table.pollstableborder .sectiontableheader img{margin:-12px 0 0 0}
+table.pollstableborder td{}
+td.sectiontableentry1,td.sectiontableentry2{text-align:left}
+td.sectiontableentry1 input{margin: 0 10px 0 0}
+table.pollstableborder  .sectiontableentry0{background:#F2F2F2}
+table.pollstableborder  .sectiontableentry0 td{padding:3px 5px}
+table.pollstableborder  .sectiontableentry1 td{padding:3px 5px}
+table.pollstableborder .smalldark{font-weight:bold}
+table.poll input.button{padding:0px 3px;margin:0 0 10px 0}
+
+.contentpane .sectiontableheader{background:#DDD;padding:5px;font-weight:bold}
+.contentpane .sectiontableentry1 td,.contentpane .sectiontableentry2 td{padding:5px}
+.contentpane .sectiontableentry2 td{background:#F2f2f2}
+/* Component contact */
+#component-contact .contentpaneopen{
+	margin:0 0 0 20px;
+}
+
+#component-contact .table_contact td{
+	
+}
+#component-contact .table_contact td.label{
+	text-align:right;
+	font-weight:bold;
+}
+#component-contact input.inputbox,#component-contact textarea{
+	padding:3px;
+}
+
+#searchForm #search_searchword{
+	padding:3px;
+	margin:0 5px;
+}
+#searchForm .button{
+	padding:1px 5px;
+}
+#searchForm input[name='searchphrase']{
+	margin:5px;
+}
+#searchForm input.search_area{
+	margin:5px 3px 0 10px;
+}
+#searchForm .searchintro br{display:none}
+.search_results fieldset{border:none}
+.search_results a.result-link{text-decoration:underline;font-size:14px}
+.search_results .result-section{font-style:italic}
+.search_results .searchword{font-weight:bold}
+
+/* Joomla 1.6*/
+.whosonline li{margin:0 0 0 15px}
+
+/* Custom Overite */
+.stats-module{display:inline-block;}
+.stats-module *{display:inline-block; float:left;}
+.stats-module dt{clear:both; margin-right:3px;}
+.stats-module dt:after{content:" : "}
+
+div.bjmod-style-4 li h3, div.bjmod-style-4 li h4, div.bjmod-style-4 li h5{margin:0; padding:0;}
+div.bjmod-style-4 a, div.bjmod-style-4 li a{font-size:12px; font-weight:normal; text-transform:none;}
+
+ul.actions{display:none;}
+ul.menu ul li a{background:none !important;}
+
+.panel {
+margin-bottom: 5px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 4px;
+-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+box-shadow: 0 1px 1px rgba(0,0,0,.05);
+overflow: hidden;
+}
+.panel h3.title {
+padding: 7px 15px;
+border-bottom: 1px solid transparent;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+color: #333;
+background-color: #f5f5f5;
+border-color: #ddd;
+}
+.panel .pane-down{padding:15px !important;}
+.contact-address > *, .contact-miscinfo > *{float:left; margin-right:5px;}
+.contact-address .address > *{margin-right:10px;}

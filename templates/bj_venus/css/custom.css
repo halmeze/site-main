@@ -1,0 +1,488 @@
+.mouseover{
+	cursor:pointer
+}
+.hide{
+	display:none;
+}
+.float-hide{
+	left:-999em;
+}
+.show{
+	display:block;
+}
+.lock{
+	background:url(../images/typo/lock30x25.png) center left no-repeat;
+	padding:12px 30px 13px 5px;
+}
+
+p.block{
+	display:block;
+}
+
+ .module{
+	margin:0 0 10px 0;
+	left:-999em;
+}
+
+/* =========== start BJ MODULE HACK ==================== */
+.module ul.menu li a,.module_text ul.menu li a,.module_menu ul.menu li a, .module ul.menu li span.separator{
+	padding:5px 10px;
+	display:block;
+	font-weight:bold;
+	color:#666
+}
+ul.menu{
+	padding:0 0 6px 0;
+	margin:0
+}
+ul.menu li{
+	background:url(../images/menu_item_bottom.png) bottom repeat-x;
+	padding:0 0 2px 0;
+	list-style:none;
+}
+/* level 2 menun item */
+ul.menu li span.separator{padding:6px 9px}
+ul.menu ul{margin:0}
+ul.menu ul li a span{padding:0 0 0 9px}
+ul.menu ul li,ul.menu ul li a{background:none;border:none;}
+ul.menu ul li a{background:url(../images/arrow.png) 7px center no-repeat}
+
+/* Default module style */
+.module{
+	position:relative;
+	padding:51px 0 0 0;
+	width:202px;
+	background:url(../images/mod_s2_top.png) top no-repeat;
+}
+#BJ_Bottoms .module{background:none;width:auto;}
+
+.module div{
+	padding:0 0 7px 0;
+	background:url(../images/mod_s2_bottom.png) bottom no-repeat;
+}
+#BJ_Bottoms .module div{background:none}
+
+.module div div{
+	background:url(../images/mod_s2_bg.png) repeat-y;
+}
+#BJ_Bottoms .module div div{background:none}
+
+.module div div div{
+	padding:0 10px;
+	background:none;
+	position:absolute;
+	top:10px;
+	left:0;
+}
+
+.module div div div div{
+	position:relative;
+	padding:0;
+	top:0;
+}
+
+.module h3,.module h4,.module h5{
+	text-transform:uppercase;
+	font-size:14px;
+	padding:5px 10px 0 10px;
+}
+
+/* =========== end BJ MODULE COMMON ================ */
+
+/* =========== BJ MODULE STYLES ==================== */
+	/* === common === */
+	div.bjmod-style-1,div.bjmod-style-2,div.bjmod-style-3{
+		padding:51px 0 0 0;	
+	}
+	div.bjmod-style-4{
+		padding:45px 0 0 0;
+	}
+	
+	div.bjmod-style-1 .bjmod-style-1,div.bjmod-style-2 .bjmod-style-2,div.bjmod-style-3 .bjmod-style-3,div.bjmod-style-4 .bjmod-style-4{
+		padding:0;
+		width:auto
+	}
+	div.bjmod-style-1 div.i,div.bjmod-style-2 div.i,div.bjmod-style-3 div.i,div.bjmod-style-4 div.i{
+		padding:0 0 7px 0;
+	}
+	div.bjmod-style-1 .bjmod-style-1 div.i,div.bjmod-style-2 .bjmod-style-2 div.i,div.bjmod-style-3 .bjmod-style-3 div.i,div.bjmod-style-4 .bjmod-style-4 div.i{
+		padding:0;
+	}
+	div.bjmod-style-1 div.i div.i div.i,div.bjmod-style-2 div.i div.i div.i,div.bjmod-style-3 div.i div.i div.i{
+		padding:0 10px;
+		background:none;
+	}
+	/* === STYLE 1 === */
+	div.bjmod-style-1,div.bjmod-style-2,div.bjmod-style-3,div.bjmod-style-4{
+		width:202px;
+	}
+	div.bjmod-style-1 h3,div.bjmod-style-1 h4,div.bjmod-style-1 h5{
+		margin:0px 0 5px 3px;
+		padding:8px;
+		height:28px;
+		line-height:2em;
+		text-transform:uppercase;
+		width:160px;
+	}
+	div.bjmod-style-1 h3 .bjmod-head-l,div.bjmod-style-1 h4 .bjmod-head-l,div.bjmod-style-1 h5 .bjmod-head-l{
+		width:5px;
+		height:44px;
+		float:left;
+		margin:-8px 0 0 -13px;
+	}
+	div.bjmod-style-1 h3 .bjmod-head-r,div.bjmod-style-1 h4 .bjmod-head-r,div.bjmod-style-1 h5 .bjmod-head-r{
+		width:5px;
+		height:44px;
+		float:left;
+		margin:-36px -13px 0 168px;
+	}
+	div.bjmod-style-1 h3,div.bjmod-style-1 h4,div.bjmod-style-1 h5{
+		background:url(../images/mod_head_bg.png) repeat-x;
+		color:#494F57;
+	}
+	div.bjmod-style-1 h3 .bjmod-head-l,div.bjmod-style-1 h4 .bjmod-head-l,div.bjmod-style-1 h5 .bjmod-head-l{
+		background:url(../images/mod_head_l.png) no-repeat;
+	}
+	div.bjmod-style-1 h3 .bjmod-head-r,div.bjmod-style-1 h4 .bjmod-head-r,div.bjmod-style-1 h5 .bjmod-head-r{
+		background:url(../images/mod_head_r.png) no-repeat;
+	}
+	div.bjmod-style-1 ul.menu{
+		padding:0 0 6px 0;
+	}
+	div.bjmod-style-1 ul.menu li{
+		padding:0 0 2px 0;
+	}
+	/* === end STYLE 1 === */
+	/* === STYLE 2,3 ===*/	
+	div.bjmod-style-2 h3,div.bjmod-style-3 h3,div.bjmod-style-2 h4,div.bjmod-style-3 h4,div.bjmod-style-2 h5,div.bjmod-style-3 h5{
+		margin:5px 0px 0px 35px;
+		padding:1px;
+		line-height:1.7em;
+		height:24px;
+		text-transform:uppercase;
+		font-size:0.9em;		
+		float:left;
+	}
+	
+	div.bjmod-style-2 h3 .bjmod-head-l,div.bjmod-style-3 h3 .bjmod-head-l,div.bjmod-style-2 h4 .bjmod-head-l,div.bjmod-style-3 h4 .bjmod-head-l,div.bjmod-style-2 h5 .bjmod-head-l,div.bjmod-style-3 h5 .bjmod-head-l{
+		width:6px;
+		height:24px;
+		float:left;
+		margin:-1px 0 0 -6px;
+	}
+	
+	div.bjmod-style-2 h3 .bjmod-head-r,div.bjmod-style-3 h3 .bjmod-head-r,div.bjmod-style-2 h4 .bjmod-head-r,div.bjmod-style-3 h4 .bjmod-head-r,div.bjmod-style-2 h5 .bjmod-head-r,div.bjmod-style-3 h5 .bjmod-head-r{
+		width:6px;
+		height:24px;
+		float:right;
+		margin:-1px -6px 0 0;
+	}
+	
+	div.bjmod-style-2 h3 .bjmod-icon,div.bjmod-style-3 h3 .bjmod-icon,div.bjmod-style-2 h4 .bjmod-icon,div.bjmod-style-3 h4 .bjmod-icon,div.bjmod-style-2 h5 .bjmod-icon,div.bjmod-style-3 h5 .bjmod-icon{
+		float:left;
+		margin:-10px 0 0 -35px;
+	}
+	/* === end STYLE 2 === */
+/* ================= BJ MODULES COLOR =========================== */
+	/* === -BLUE ==== */
+	div.bjmod-color-blue{
+		background:url(../images/blue/mod_top.png) top no-repeat;
+		color:#FFF
+	}
+	div.bjmod-color-blue div.i{
+		background:url(../images/blue/mod_bottom.png) bottom no-repeat;
+	}
+	div.bjmod-color-blue div.i div.i{
+		background:url(../images/blue/mod_bg.png) repeat-y;
+	}
+	div.bjmod-color-blue h3,div.bjmod-color-blue h4,div.bjmod-color-blue h5{
+		background:url(../images/mod_head_bg.png) repeat-x;
+		color:#494F57;
+	}
+	div.bjmod-color-blue h3 .bjmod-head-l,div.bjmod-color-blue h4 .bjmod-head-l,div.bjmod-color-blue h5 .bjmod-head-l{
+		background:url(../images/mod_head_l.png) no-repeat;
+	}
+	div.bjmod-color-blue h3 .bjmod-head-r,div.bjmod-color-blue h4 .bjmod-head-r,div.bjmod-color-blue h5 .bjmod-head-r{
+		background:url(../images/mod_head_r.png) no-repeat;
+	}
+	.bjmod-style-1 div.bjmod-color-blue a,.bjmod-style-3 div.bjmod-color-blue a{
+		color:#D0E4EE;
+	}
+	.bjmod-style-1 div.bjmod-color-blue a:hover,.bjmod-style-3 div.bjmod-color-blue a:hover{
+		color:#FFF;
+	}
+	div.bjmod-color-blue ul.menu{
+		padding:0 0 6px 0;
+	}
+	div.bjmod-color-blue ul.menu li{
+		padding:0 0 2px 0;
+	}
+	div.bjmod-color-blue ul.menu li a,div.bjmod-color-blue ul.menu li span.separator{
+		padding:5px 10px;
+		color:#D0E4EE;
+	}
+	div.bjmod-color-blue ul.menu li a:hover{
+		background:#2E86B2 url(../images/menu_item_over.png) 165px no-repeat;
+	}
+	
+	/* === Style-2 === */
+	div.bjmod-style-2,div.bjmod-style-3{
+		background:url(../images/mod_s2_top.png) top no-repeat;
+	}
+	div.bjmod-style-2 div.i,div.bjmod-style-3 div.i{
+		background:url(../images/mod_s2_bottom.png) bottom no-repeat;
+	}
+	div.bjmod-style-2 div.i div.i,div.bjmod-style-3 div.i div.i{
+		background:url(../images/mod_s2_bg.png) repeat-y;
+	}
+	
+	#BJ_Right div.bjmod-style-2,#BJ_Right div.bjmod-style-3{
+		background:url(../images/mod_s2r_top.png) top no-repeat;
+	}
+	#BJ_Right div.bjmod-style-2 div.i,#BJ_Right div.bjmod-style-3 div.i{
+		background:url(../images/mod_s2r_bottom.png) bottom no-repeat;
+		padding:0 0 5px 0;
+	}
+	#BJ_Right div.bjmod-style-2 div.i div.i,#BJ_Right div.bjmod-style-3 div.i div.i{
+		background:url(../images/mod_s2r_bg.png) repeat-y;
+	}
+	#BJ_Right div.bjmod-style-2 div.i div.i div.i,#BJ_Right div.bjmod-style-3 div.i div.i div.i{
+		background:none;
+		padding:0 10px 10px;
+	}
+	
+	div.bjmod-style-2 h3,div.bjmod-style-3 h3,div.bjmod-style-2 h4,div.bjmod-style-3 h4,div.bjmod-style-2 h5,div.bjmod-style-3 h5{
+		background:url(../images/blue/mod-s2-h3-bg.png) repeat-x;	
+		color:#fff;
+	}
+	div.bjmod-style-2 h3 .bjmod-head-l,div.bjmod-style-3 h3 .bjmod-head-l,div.bjmod-style-2 h4 .bjmod-head-l,div.bjmod-style-3 h4 .bjmod-head-l,div.bjmod-style-2 h5 .bjmod-head-l,div.bjmod-style-3 h5 .bjmod-head-l{
+		background:url(../images/blue/mod-s2-h3-l.png) no-repeat;
+	}
+	div.bjmod-style-2 h3 .bjmod-head-r,div.bjmod-style-3 h3 .bjmod-head-r,div.bjmod-style-2 h4 .bjmod-head-r,div.bjmod-style-3 h4 .bjmod-head-r,div.bjmod-style-2 h5 .bjmod-head-r,div.bjmod-style-3 h5 .bjmod-head-r{
+		background:url(../images/blue/mod-s2-h3-r.png) no-repeat;
+	}	
+	div.bjmod-style-2 ul.menu,div.bjmod-style-3 ul.menu{
+		padding:0 0 6px 0;
+	}
+	div.bjmod-style-2 ul.menu li,div.bjmod-style-3 ul.menu li{		
+		padding:0 0 2px 0;
+	}
+	div.bjmod-style-2 ul.menu li a,div.bjmod-style-3 ul.menu li a{
+		color:#666;
+		padding:5px 10px;
+	}
+	div.bjmod-style-2 ul.menu li a:hover,div.bjmod-style-3 ul.menu li a:hover{
+		background:#DADADA
+	}
+	
+	/* === Style-4 === */
+	div.bjmod-style-4{
+		background:url(../images/mod_s4_top.png) top no-repeat;
+	}
+	div.bjmod-style-4 div.i{
+		background:url(../images/mod_s4_bottom.png) bottom no-repeat;
+	}
+	div.bjmod-style-4 div.i div.i{
+		background:url(../images/mod_s4_bg.png) repeat-y;
+	}
+	div.bjmod-style-4 div.i div.i div.i{
+		background:none
+	}
+	div.bjmod-style-4  .bjmod-content{
+		padding:0 10px 10px 20px;
+		color:#FFF;
+		width:160px
+	}
+	div.bjmod-style-4 h3,div.bjmod-style-4 h4,div.bjmod-style-4 h5{
+		margin:0 0 0 10px;
+		color:#FFF
+	}
+	div.bjmod-style-4 a,div.bjmod-style-4 li a{color:#FFF;text-decoration:underline}
+	div.bjmod-style-4 ul{margin:0}
+	div.bjmod-style-4 ul li{margin:0 0 0 20px}
+	
+	/* BJ MODULE STYLE 2 - 3  & COLORS */
+	div.bjmod-style-3 .bjmod-content,#BJ_Right_Col div.bjmod-style-3 .bjmod-content{
+		padding:10px;
+	}
+	div.bjmod-style-3 .bjmod-content,#BJ_Right_Col div.bjmod-style-3 .bjmod-content{
+		background:#329DD1 url(../images/blue/mod-s3-content-bg.png) bottom repeat-x;
+		color:#FFF;
+	}
+	div.bjmod-style-2 .bjmod-color-blue h3,div.bjmod-style-3 .bjmod-color-blue h3,div.bjmod-style-2 .bjmod-color-blue h4,div.bjmod-style-3 .bjmod-color-blue h4,div.bjmod-style-2 .bjmod-color-blue h5,div.bjmod-style-3 .bjmod-color-blue h5{
+		background:url(../images/blue/mod-s2-h3-bg.png) repeat-x;	
+		color:#fff;
+	}
+	div.bjmod-style-2 .bjmod-color-blue h3 .bjmod-head-l,div.bjmod-style-3 .bjmod-color-blue h3 .bjmod-head-l,div.bjmod-style-2 .bjmod-color-blue h4 .bjmod-head-l,div.bjmod-style-3 .bjmod-color-blue h4 .bjmod-head-l,div.bjmod-style-2 .bjmod-color-blue h5 .bjmod-head-l,div.bjmod-style-3 .bjmod-color-blue h5 .bjmod-head-l{
+		background:url(../images/blue/mod-s2-h3-l.png) no-repeat;
+	}
+	div.bjmod-style-2 .bjmod-color-blue h3 .bjmod-head-r,div.bjmod-style-3 .bjmod-color-blue h3 .bjmod-head-r,div.bjmod-style-2 .bjmod-color-blue h4 .bjmod-head-r,div.bjmod-style-3 .bjmod-color-blue h4 .bjmod-head-r,div.bjmod-style-2 .bjmod-color-blue h5 .bjmod-head-r,div.bjmod-style-3 .bjmod-color-blue h5 .bjmod-head-r{
+		background:url(../images/blue/mod-s2-h3-r.png) no-repeat;
+	}
+	div.bjmod-style-3 .bjmod-color-blue .bjmod-content,#BJ_Right_Col div.bjmod-style-3 .bjmod-color-blue .bjmod-content{
+		background:#329DD1 url(../images/blue/mod-s3-content-bg.png) bottom repeat-x;
+		color:#FFF;
+	}
+	
+	ul.menu li a:hover{
+		background:#DBDBDB url(../images/menu_item_over.png) 165px no-repeat;
+		text-decoration: none;
+	}	
+	#BJ_Bottoms ul.menu li a:hover{
+		background:none
+	}
+
+/* =================== BJ MODULES CORNER ============================ */
+.bjmod-corner{display:none}
+
+/* TYPO */
+p.typo-home,p.typo-plus,p.typo-plus2,p.typo-accept,p.typo-heart,p.typo-star,p.typo-thumbup,p.typo-up,p.typo-sticker,p.typo-pencil,p.typo-dialog,p.typo-download{display:block;width:100%;float:left}
+p .icon{
+	padding:6px 12px 0 12px;
+	float:left;
+	margin:0 5px 5px 0;
+}
+
+span.typo-search{
+	background:url(../images/search_w.png) no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+
+span.typo-home{
+	background:url(../images/typo/typo.png) 0 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-home .icon{
+	background:url(../images/typo/typo.png) 0 0px no-repeat;
+}
+span.typo-plus{
+	background:url(../images/typo/typo.png) -34px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-plus .icon{
+	background:url(../images/typo/typo.png) -34px 0px no-repeat;
+}
+span.typo-plus2{
+	background:url(../images/typo/typo.png) -102px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-plus2 .icon{
+	background:url(../images/typo/typo.png) -102px 0px no-repeat;
+}
+span.typo-accept{
+	background:url(../images/typo/typo.png) -205px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-accept .icon{
+	background:url(../images/typo/typo.png) -205px 0px no-repeat;
+}
+span.typo-heart{
+	background:url(../images/typo/typo.png) -308px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-heart .icon{
+	background:url(../images/typo/typo.png) -308px 0px no-repeat;
+}
+span.typo-star{
+	background:url(../images/typo/typo.png) -342px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-star .icon{
+	background:url(../images/typo/typo.png) -342px 0px no-repeat;
+}
+span.typo-thumbup{
+	background:url(../images/typo/typo.png) -377px 8px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-thumbup .icon{
+	background:url(../images/typo/typo.png) -377px 0px no-repeat;
+}
+span.typo-up{
+	background:url(../images/typo/typo.png) -34px -26px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-up .icon{
+	background:url(../images/typo/typo.png) -34px -34px no-repeat;
+}
+span.typo-sticker{
+	background:url(../images/typo/typo.png) -68px -26px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-sticker .icon{
+	background:url(../images/typo/typo.png) -68px -34px no-repeat;
+}
+span.typo-pencil{
+	background:url(../images/typo/typo.png) -375px -26px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-pencil .icon{
+	background:url(../images/typo/typo.png) -375px -34px no-repeat;
+}
+span.typo-dialog{
+	background:url(../images/typo/typo.png) -171px -60px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-dialog .icon{
+	background:url(../images/typo/typo.png) -171px -68px no-repeat;
+}
+span.typo-download{
+	background:url(../images/typo/typo.png) -206px -60px no-repeat;
+	padding:12px 12px 12px 12px;
+	margin:0 8px 5px 0;
+}
+p.typo-download .icon{
+	background:url(../images/typo/typo.png) -206px -68px no-repeat;
+}
+
+.button-1:hover{text-decoration:none}
+.button-1-,.button-1-blue{
+	border:1px solid #000;
+	margin:15px 5px 5px 5px;
+	display:inline;
+	padding:8px 0 8px 0;
+	line-height:40px;
+}
+a.button-1{padding:7px 15px;color:#fff;text-transform:uppercase;font-weight:bold}
+
+.button-1-blue a.button-1{
+	background:url(../images/blue/button-bg.png) repeat-x;
+	border-left:1px solid #5B85AF;
+	border-top:1px solid #5B85AF;
+	border-right:1px solid #042E58;
+	border-bottom:1px solid #042E58;
+}
+.button-1-blue a.button-1:hover{
+	background:url(../images/blue/button-bg-over.png) repeat-x;
+	border-left:1px solid #305A83;
+	border-top:1px solid #305A83;
+	border-right:1px solid #052F58;
+	border-bottom:1px solid #052F58;
+}
+.button-1-blue a.button-1:active{
+	background:url(../images/blue/button-bg-active.png) repeat-x;
+	border-left:1px solid #042E58;
+	border-top:1px solid #042E58;
+	border-right:1px solid #5B85AF;
+	border-bottom:1px solid #5B85AF;
+}
+/* Fix position for BJ Content Slider module */
+.bjmod-style-4 .cb,.bjmod-style-4 .cbb,.bjmod-style-3 .cb,.bjmod-style-3 .cbb,.bjmod-style-1 .cb,.bjmod-style-1 .cbb,.bjmod-style-2 .cb,.bjmod-style-2 .cbb{padding:5px 0;margin:0}
+.bjmod-style-4 .cb .bt,.bjmod-style-4 .cbb .bt,.bjmod-style-3 .cb .bt,.bjmod-style-3 .cbb .bt,.bjmod-style-1 .cb .bt,.bjmod-style-1 .cbb .bt,.bjmod-style-2 .cb .bt,.bjmod-style-2 .cbb .bt{height:0;display:none}
+.bjmod-style-4 .cbb .i1,.bjmod-style-4 .cbb .i2,.bjmod-style-4 .cbb .i3,.bjmod-style-4 .cb .i1,.bjmod-style-4 .cb .i2,.bjmod-style-4 .cb .i3,.bjmod-style-3 .cbb .i1,.bjmod-style-3 .cbb .i2,.bjmod-style-3 .cbb .i3,.bjmod-style-3 .cb .i1,.bjmod-style-3 .cb .i2,.bjmod-style-3 .cb .i3,.bjmod-style-1 .cbb .i1,.bjmod-style-1 .cbb .i2,.bjmod-style-1 .cbb .i3,.bjmod-style-1 .cb .i1,.bjmod-style-1 .cb .i2,.bjmod-style-1 .cb .i3,.bjmod-style-2 .cbb .i1,.bjmod-style-2 .cbb .i2,.bjmod-style-2 .cbb .i3,.bjmod-style-2 .cb .i1,.bjmod-style-2 .cb .i2,.bjmod-style-2 .cb .i3{margin:0;padding:0;top:0}
+.bjmod-style-4 .cbb .venus-contentslider,.bjmod-style-4 .cb .venus-contentslider,.bjmod-style-3 .cbb .venus-contentslider,.bjmod-style-3 .cb .venus-contentslider,.bjmod-style-1 .cbb .venus-contentslider,.bjmod-style-1 .cb .venus-contentslider,.bjmod-style-2 .cbb .venus-contentslider,.bjmod-style-2 .cb .venus-contentslider{padding:0;top:0;margin:0}
+.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-contents,.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-content,.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-content-current,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-contents,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-content,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-content-current,.bjmod-style-3 .cbb .bj-contentslider-contents,.bjmod-style-3 .cbb .bj-contentslider-content,.bjmod-style-3 .cbb .bj-contentslider-content-current,.bjmod-style-3 .cb .bj-contentslider-contents,.bjmod-style-3 .cb .bj-contentslider-content,.bjmod-style-3 .cb .bj-contentslider-content-current,.bjmod-style-1 .cbb .bj-contentslider-contents,.bjmod-style-1 .cbb .bj-contentslider-content,.bjmod-style-1 .cbb .bj-contentslider-content-current,.bjmod-style-1 .cb .bj-contentslider-contents,.bjmod-style-1 .cb .bj-contentslider-content,.bjmod-style-1 .cb .bj-contentslider-content-current,.bjmod-style-2 .cbb .bj-contentslider-contents,.bjmod-style-2 .cbb .bj-contentslider-content,.bjmod-style-2 .cbb .bj-contentslider-content-current,.bjmod-style-2 .cb .bj-contentslider-contents,.bjmod-style-2 .cb .bj-contentslider-content,.bjmod-style-2 .cb .bj-contentslider-content-current{padding:0;top:0;width:180px}
+.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-contents,.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-content,.bjmod-style-4 .cbb .venus-contentslider .bj-contentslider-content-current,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-contents,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-content,.bjmod-style-4 .cb .venus-contentslider .bj-contentslider-content-current{width:160px}
+.module .venus-contentslider ul.bj-contentslider-titles{bottom:-10px;}
+.module .venus-contentslider ul.bj-contentslider-titles li{margin:0}
